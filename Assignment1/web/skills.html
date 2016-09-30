@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 class="text-center"> How Well do you Know the Following? </h1>
+            <div class="container">
+                <form action="SkillsServlet" method="post">
+                    <table class="table table-striped table-hover">
+                        <tr>
+                        <div class="form-group text-center">
+                            <td>
+                            <label class="control-label text-left">C</label>
+                            </td>
+                            <td>
+                            <input type="checkbox" name="c-check" value="yes">
+                            </td>
+                            <td>
+                            <label> Proficiency Level </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="c-skill" value="beginner">
+                                Beginner
+                            </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="c-skill" value="intermediate">
+                                Intermediate
+                            </label> 
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="c-skill" value="expert">
+                                Expert
+                            </label> 
+                            </td>
+                        </div>
+                        </tr>
+                        <tr>
+                        <div class="form-group text-center">
+                            <td>
+                            <label class="control-label text-left">Java</label>
+                            </td>
+                            <td>
+                            <input type="checkbox" name="j-check" value="yes">
+                            </td>
+                            <td>
+                            <label> Proficiency Level </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="j-skill" value="beginner">
+                                Beginner
+                            </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="j-skill" value="intermediate">
+                                Intermediate
+                            </label> 
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="j-skill" value="expert">
+                                Expert
+                            </label> 
+                            </td>
+                        </div>
+                        </tr>
+                        <tr>
+                        <div class="form-group text-center">
+                            <td>
+                            <label class="control-label text-left">PHP</label>
+                            </td>
+                            <td>
+                            <input type="checkbox"  name="p-check" value="yes">
+                            </td>
+                            <td>
+                            <label> Proficiency Level </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="p-skill" value="beginner">
+                                Beginner
+                            </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="p-skill" value="intermediate">
+                                Intermediate
+                            </label> 
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="p-skill" value="expert">
+                                Expert
+                            </label> 
+                            </td>
+                        </div>
+                        </tr>
+                        <tr>
+                        <div class="form-group text-center">
+                            <td>
+                            <label class="control-label text-left">SQL</label>
+                            </td>
+                            <td>
+                            <input type="checkbox" name="sql-check" value="yes">
+                            </td>
+                            <td>
+                            <label> Proficiency Level </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="sql-skill" value="beginner">
+                                Beginner
+                            </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="sql-skill" value="intermediate">
+                                Intermediate
+                            </label> 
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="sql-skill" value="expert">
+                                Expert
+                            </label> 
+                            </td>
+                        </div>
+                        </tr>
+                        <tr>
+                        <div class="form-group text-center">
+                            <td>
+                            <label class="control-label text-left">C#</label>
+                            </td>
+                            <td>
+                            <input type="checkbox" name="csharp-check" value="yes">
+                            </td>
+                            <td>
+                            <label> Proficiency Level </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="csharp-skill" value="beginner">
+                                Beginner
+                            </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="csharp-skill" value="intermediate">
+                                Intermediate
+                            </label> 
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="csharp-skill" value="expert">
+                                Expert
+                            </label> 
+                            </td>
+                        </div>
+                        </tr>
+                        <tr>
+                        <div class="form-group text-center">
+                            <td>
+                            <label class="control-label text-left">JavaScript</label>
+                            </td>
+                            <td>
+                            <input type="checkbox" name="js-check" value="yes">
+                            </td>
+                            <td>
+                            <label> Proficiency Level </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="js-skill" value="beginner">
+                                Beginner
+                            </label>
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="js-skill" value="intermediate">
+                                Intermediate
+                            </label> 
+                            </td>
+                            <td>
+                            <label class="radio-inline">
+                                <input type="radio" name="js-skill" value="expert">
+                                Expert
+                            </label> 
+                            </td>
+                        </div>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><button type="reset" class="btn btn-info">Reset</button></td>
+                            <td><button type="submit" class="btn btn-success">Submit</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+/* 
+    Created on : Sep 14, 2016, 7:18:45 PM
+    Author     : Michael Neely - 13100590
+*/
+body {
+    display: table;
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    background-color: #2ecc71;
+}
+
+.jumbotron {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #2ecc71;
+}

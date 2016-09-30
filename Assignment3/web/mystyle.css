@@ -1,0 +1,17 @@
+/* 
+    CT5106 Assignment 3
+    Author: Michael Neely 13100590
+    Custom CSS settings
+*/
+body {
+    display: table;
+    position: absolute;
+    height: 20%;
+    width: 100%;
+}
+
+.jumbotron {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #ffffff;
+}
